@@ -1,6 +1,6 @@
 const var times = 24*15
 $(document).ready(function(){
-	$(something).click(function(){
+	$(document).on('click',thing,function(){
 		$(div).empty()
 
 		var table = $('<table></table>').addClass(tablestyle);
@@ -11,6 +11,8 @@ $(document).ready(function(){
 
 		$(sometable).append(table);
 
+	}
+		
 
 	});
 
