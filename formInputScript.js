@@ -24,6 +24,11 @@ var eventInfo = mongoose.model('eventInfo', eventSchema);
 
 var createdEvent = new eventInfo({ /*Insert info*/ });
 
-	console.log(createdEvent.title); //Outputs title of event
+console.log(createdEvent.title); //Outputs title of event
+
+createdEvent.save(function (err, createdEvent) {
+  if (err) return console.error(err);
+  consoe.log("Successfully added to database");
+});
 
 
