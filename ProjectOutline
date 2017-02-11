@@ -3,10 +3,12 @@
 Calendar App
 
 global enum MONTHS { January = 0; February = 1; etc }
+global data type date tracker // Holds date in mm/dd/yyyy or other format (dd/mm/yyyy)
 
 Instance of Calendar
   7 Days Across
-  4 Or 5 Lines, for Week Count 
+  Contains Month, as date tracker changes, update month
+  4 Or 5 Lines, Weeks
   Each box is an Instance of Day
   
 Instance of Day
