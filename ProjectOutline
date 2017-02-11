@@ -13,7 +13,13 @@ Instance of Calendar
   
 Instance of Day
   Contains date
-  Contains Time inputs
+  On inception, parses (database?) for any events that occur during that time
 
 Instance of Time input
+  
+
+OnPage for making new Calendar Entries
+  Function that takes all input on screen, Event Title, Event Descript., Event Times (start and end, distinct, also
+  choice of allday (bool)), Event days, Event Color (Predfined ones or user defined? RGBA?), Optional Related
+  People/Students/Professors
   
