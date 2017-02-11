@@ -23,3 +23,12 @@ OnPage for making new Calendar Entries
   choice of allday (bool)), Event days, Event Color (Predfined ones or user defined? RGBA?), Optional Related
   People/Students/Professors
   
+
+
+
+//Updated
+
+Table name: Event
+| UID |    Title     |      Start     |      End       |  Description  |  RelatedPeople         |
+-------------------------------------------------------------------------------------------------
+|  1  |Science Class | 02/18/17 9:00  | 02/18/17 13:00 | GE class      |  Professor K, Friend A |
