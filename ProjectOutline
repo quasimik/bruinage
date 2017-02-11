@@ -1,0 +1,17 @@
+//Project outline
+
+Calendar App
+
+global enum MONTHS { January = 0; February = 1; etc }
+
+Instance of Calendar
+  7 Days Across
+  4 Or 5 Lines, for Week Count 
+  Each box is an Instance of Day
+  
+Instance of Day
+  Contains date
+  Contains Time inputs
+
+Instance of Time input
+  
