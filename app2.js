@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -11,18 +10,8 @@ var app = express();
 var mongoClient=require('mongodb').MongoClient, assert = require('assert')
 
 mongoose.Promise = global.Promise;
-var MongoClient = require('mongodb').MongoClient
-  , assert = require('assert');
-// Connection URL
 
-// Use connect method to connect to the server
-mongoClient.connect('mongodb://localhost/test',function(err,db){
-    assert.equal(null, err);
-    console.log("Connected success");
-});
-
-
-//example
+//same use of event
 var Event=require('./localLib/event.js')
 var bday = new Event({ title: 'DannyBday', date:'1/1/1' });
 bday.tell();
