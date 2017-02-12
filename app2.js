@@ -21,6 +21,8 @@ mongoClient.connect('mongodb://localhost/test',function(err,db){
     console.log("Connected success");
 });
 
+
+//example
 var Event=require('./localLib/event.js')
 var bday = new Event({ title: 'DannyBday', date:'1/1/1' });
 bday.tell();
@@ -29,7 +31,7 @@ bday.save(function (err, bday) {
     console.log("Saved bday!")
 });
 
-/*
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -65,4 +67,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-*/
+
